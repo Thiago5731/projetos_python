@@ -1,0 +1,110 @@
+📄 Documentação – hosts_win.py
+📝 Descrição
+
+O programa hosts_win.py é uma ferramenta interativa em Python para realizar consultas de DNS utilizando o comando nslookup.
+Ele permite ao usuário consultar diferentes tipos de registros DNS de um domínio específico, utilizando como servidor de resolução o DNS público do Google (8.8.8.8).
+
+As consultas realizadas são dos tipos:
+
+A → Endereço IPv4 associado ao domínio.
+
+NS → Servidores de nomes responsáveis pelo domínio.
+
+MX → Registros de servidores de e-mail.
+
+TXT → Registros de texto, frequentemente usados para SPF, DKIM, entre outros.
+
+⚙️ Requisitos
+
+Sistema Operacional: Windows (ou outro com suporte ao nslookup).
+
+Python: Versão 3.x.
+
+Bibliotecas: Apenas módulos nativos do Python.
+
+subprocess → Executa comandos do sistema operacional.
+
+▶️ Como executar
+
+Salve o código como hosts_win.py.
+
+Execute o script no terminal ou prompt de comando:
+
+python hosts_win.py
+
+
+O programa exibirá o menu de boas-vindas e solicitará um domínio.
+
+Após inserir o domínio, serão exibidos os resultados das consultas DNS.
+
+No final, será perguntado se deseja sair ou continuar.
+
+🔄 Fluxo do Programa
+
+Exibe mensagem de boas-vindas.
+
+Solicita ao usuário um domínio (ex.: exemplo.com).
+
+Executa consultas DNS para os tipos: A, NS, MX e TXT.
+
+Mostra os resultados formatados na tela.
+
+Pergunta se o usuário deseja encerrar:
+
+S → Encerra o programa.
+
+N → Permite realizar uma nova consulta.
+
+📌 Estrutura do Código
+
+Loop principal (while sair == 0)
+Mantém o programa em execução até o usuário escolher sair.
+
+Entrada do usuário (input)
+Coleta o domínio e a resposta de saída.
+
+Execução de comandos (subprocess.run)
+Chama o nslookup com os parâmetros:
+
+nslookup -type=TIPO dominio 8.8.8.8
+
+
+TIPO → Tipo de consulta DNS (A, NS, MX, TXT).
+
+dominio → Domínio digitado pelo usuário.
+
+8.8.8.8 → Servidor DNS do Google.
+
+Exibição dos resultados
+Os resultados são impressos diretamente no terminal, preservando a saída original do nslookup.
+
+
+
+
+           ###################        
+          ########################    
+        ############################  
+      ###0######         ############ 
+      ##0#0####              #########
+     ##0##0###                ########
+    ##0####0###               ########
+   ##0####0####               ########
+   ###0##0####               #########
+   &###0###&#               ######### 
+   ###0#0###               #########  
+    #######               #########   
+   #######               #########    
+    ####               ##########     
+     $               ###########      
+    $              ###########        
+    $            ###########          
+   $           ###########            
+  $ $        ###########              
+           ###########                
+         ###########                  
+       ###########                    
+     ###########                      
+   ###########                        
+  ###########                         
+Obrigado! Qualquer duvida pode me chamar! 
+
