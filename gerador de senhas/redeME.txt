@@ -1,0 +1,113 @@
+📄 Documentação – Gerador de Senhas
+📝 Descrição
+
+O programa Gerador de Senhas é uma ferramenta em Python que cria senhas aleatórias com letras e números.
+Ele permite ao usuário definir o tamanho da senha desejada e, a cada execução, uma senha única é gerada.
+
+O programa oferece um pequeno menu para escolher entre:
+
+[1] Gerar senha
+
+[2] Sair
+
+⚙️ Requisitos
+
+Python: Versão 3.x.
+
+Bibliotecas: Apenas módulos nativos do Python:
+
+random → Para gerar números aleatórios e escolher caracteres.
+
+string → Para acessar alfabetos (maiúsculos e minúsculos).
+
+▶️ Como executar
+
+Salve o arquivo como gerador_senhas.py.
+
+Execute o script no terminal:
+
+python gerador_senhas.py
+
+
+Escolha uma das opções do menu.
+
+Caso escolha gerar uma senha, informe o tamanho desejado.
+
+O programa exibirá a senha gerada.
+
+🔄 Fluxo do Programa
+
+Exibe uma mensagem de boas-vindas.
+
+Exibe o menu principal:
+
+[1] Gerar senha
+
+[2] Sair
+
+Se o usuário escolher 1, o programa:
+
+Pergunta o tamanho da senha.
+
+Gera letras e números aleatórios.
+
+Exibe a senha.
+
+Pergunta se deseja gerar outra senha.
+
+Se o usuário escolher 2, o programa encerra com a mensagem “Bye !!!”.
+
+Caso o usuário digite uma opção inválida, solicita novamente uma escolha válida.
+
+📌 Estrutura do Código
+
+Função geradorSenha()
+
+Cria uma lista vazia para armazenar caracteres da senha.
+
+Define alfabetos (ascii_lowercase e ascii_uppercase).
+
+Solicita ao usuário o tamanho da senha.
+
+Gera pares de caracteres: 1 letra aleatória + 1 número aleatório.
+
+Monta a senha final (join) com o tamanho especificado.
+
+Exibe a senha pronta.
+
+Loop principal (while loop == 0)
+
+Exibe o menu.
+
+Chama a função geradorSenha() quando necessário.
+
+
+
+
+                
+           ###################        
+          ########################    
+        ############################  
+      ###0######         ############ 
+      ##0#0####              #########
+     ##0##0###                ########
+    ##0####0###               ########
+   ##0####0####               ########
+   ###0##0####               #########
+   &###0###&#               ######### 
+   ###0#0###               #########  
+    #######               #########   
+   #######               #########    
+    ####               ##########     
+     $               ###########      
+    $              ###########        
+    $            ###########          
+   $           ###########            
+  $ $        ###########              
+           ###########                
+         ###########                  
+       ###########                    
+     ###########                      
+   ###########                        
+  ###########                         
+Obrigado! Qualquer duvida pode me chamar! 
