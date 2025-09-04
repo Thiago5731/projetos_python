@@ -1,0 +1,50 @@
+Olá!
+Este é um guia rápido e simples para utilizar o programa que automatiza as APIs para uso. 
+
+Sobre o Programa
+
+O sistema foi desenvolvido para automatizar 22 APIs diferentes (da 1 à 22).
+Algumas APIs não estão lincadas e podem não rodar quando executar. 
+Quando isso acontecer, o programa exibirá um aviso.
+Todas as APIs possuem parâmetros específicos que podem ser substituídos conforme sua vontade.
+Caso encontre algum problema, basta avisar para que possamos atualizar e liberar uma nova versão.
+
+Como Utilizar o Programa
+Baixe o arquivo compactado e extraia para uma pasta no seu computador.
+Acesse a pasta extraída pelo terminal e execute o programa com o comando:
+
+python programa_api.py
+
+Se você não tiver o Python instalado, faça a instalação seguindo o guia oficial:
+Instalação do Python
+
+Observações
+Certifique-se de estar utilizando uma versão atualizada do Python.
+Caso encontre erros ou tenha dúvidas, entre em contato para suporte.
+
+           ###################        
+          ########################    
+        ############################  
+      ###0######         ############ 
+      ##0#0####              #########
+     ##0##0###                ########
+    ##0####0###               ########
+   ##0####0####               ########
+   ###0##0####               #########
+   &###0###&#               ######### 
+   ###0#0###               #########  
+    #######               #########   
+   #######               #########    
+    ####               ##########     
+     $               ###########      
+    $              ###########        
+    $            ###########          
+   $           ###########            
+  $ $        ###########              
+           ###########                
+         ###########                  
+       ###########                    
+     ###########                      
+   ###########                        
+  ###########                         
+Obrigado! Qualquer duvida pode me chamar! 
